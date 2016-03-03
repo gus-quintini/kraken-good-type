@@ -1,0 +1,57 @@
+html {
+  box-sizing: border-box;
+  background-color: #fff;
+  font-family: "Libre Baskerville", serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+header {
+  background-color: #259f95;
+  border-radius: 0 0 8px 8px;
+  border: 3px solid #259f95;
+}
+
+body {
+  font-size: 1rem;
+  display: block;
+  text-align: center;
+}
+
+footer {
+  background-color: #259f95;
+  border-radius: 8px 8px 0 0;
+  border: 3px solid #259f95;
+}
+
+img {
+  margin: 1.5rem;
+  width: 100%;
+  border: 2px solid #1e7c74;
+  border-radius: 8px;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 1.5rem
+}
+
+p {
+  display: block;
+  margin: 0;
+  text-indent: 20px;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem; 
+}
+
+.colon {
+  display: none;
+}
+
+.chapter-num {
+  display: block;
+  font-size: .75em;
+  font-style: italic;
+}
